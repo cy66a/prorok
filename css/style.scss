@@ -1,0 +1,48 @@
+body {
+	font-size: 16px;
+	font-family: 'Caveat', cursive;
+	background: url(/img/prorok.png) center center / cover no-repeat;
+	background-color: #333; 
+
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;	
+}
+
+.header {
+	padding: 100px 0;
+	height: 100vh;
+	background: url(/img/candle.png) left bottom no-repeat;
+
+	background-size: 20%;
+}
+
+h1 {
+	font-size: 6rem;
+	color: gold;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.verse {
+	font-size: 24px;
+	color: burlywood;
+	max-width: 500px;
+	font-size: 2rem;
+	margin-bottom: 40px;
+
+	p {
+		margin-bottom: 30px;
+	}
+
+	p:nth-child(2n) {
+		text-align: right;
+	}
+}
+
+.quote {
+	font-size: 1.5rem;
+	color: azure;
+}
